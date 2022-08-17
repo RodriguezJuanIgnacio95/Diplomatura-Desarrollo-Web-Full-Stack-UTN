@@ -1,0 +1,121 @@
+body{
+    background-color: beige;
+}
+
+.flex-contenedor {
+    border: 2px solid black;
+    background: beige;
+    padding: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.caja{
+    border: 1px solid grey;
+    background-color: antiquewhite;
+    color: rgb(34, 34, 31);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    height: 0 auto;
+}
+
+.c1{
+    background: lightcoral;
+}
+
+.c2{
+    background: lightblue;
+}
+
+.c3{
+    background: lightgreen;
+}
+
+.flex-contenedor2 {
+    border: 2px solid black;
+    background: beige;
+    padding: 80px auto;  
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.caja1 {
+    border: 1px solid grey;
+    background-color: antiquewhite;
+    color: rgb(34, 34, 31);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    height: 0 auto;
+}
+
+.d1{
+    background: lightcoral;
+    flex-grow: 3;
+}
+
+.d2{
+    background: lightblue;
+    flex-grow: 3;
+}
+
+.d3{
+    background: lightgreen;
+    flex-grow: 3;
+}
+
+.flex-contenedor3 {
+    border: 2px solid black;
+    background: beige;
+    padding: 0px auto;  
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caja2 {
+    border: 1px solid grey;
+    background-color: antiquewhite;
+    color: rgb(34, 34, 31);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    height: 0 auto;
+}
+
+.t1{
+    background: lightcoral;
+    
+}
+
+.t2{
+    background: lightblue;
+    
+}
+
+.t3{
+    background: lightgreen;
+   
+}
